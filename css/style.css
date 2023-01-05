@@ -1,0 +1,28 @@
+
+
+/* Header styles start  */
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: burlywood;
+    flex-wrap: wrap;
+   
+}
+.nav-container ul{
+    display: flex;
+   
+
+}
+
+.nav-container ul li{
+    list-style: none;
+    margin-left: 15px;
+    font-size: 19px;
+   
+}
+
+.nav-container ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
