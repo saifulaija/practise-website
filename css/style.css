@@ -144,14 +144,17 @@
   }
 
   .card-item1{
-    border: 1px solid red;
+    border-radius: 5px;
+    padding-left: 10px;
+    box-shadow: 8px 8px 8px black;
     width: 300px;
     height: 360px;
     background-color: rgba(79, 157, 166, 0.1);
    
   }
   .card-item2{
-   
+    padding-left: 10px;
+   box-shadow: 8px 8px 8px black;
     border-radius: 5px;
     width: 300px;
     height: 360px;
@@ -159,10 +162,12 @@
    
   }
   .card-item3{
-    border: 1px solid red;
+    border-radius: 5px;
     width: 300px;
     height: 360px;
     background-color: rgba(255, 89, 89, 0.274);
+    box-shadow: 8px 8px 7px black;
+    padding-left: 10px;
    
   }
   .card-item p{
@@ -186,6 +191,48 @@
     margin: 35px 150px;
     padding: 0 0 8px 10px;
   }
+
+
+  /* depend style start  */
+
+  .depend-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 100px 150px;
+  }
+
+  .depend-description p{
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+
+  /* Survive styles start  */
+  .survive{
+    margin-bottom: 30px;
+  }
+  .survive-conatiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 150px;
+  }
+
+  .survive-description p{
+    margin-bottom: 25px;
+  
+  }
+
+  /* update section start  */
+  
+  .update-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+  }
+  
 
   
  
