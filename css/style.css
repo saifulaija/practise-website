@@ -12,6 +12,8 @@
    background-color: #FF5959;
     flex-wrap: wrap;
     align-items: center;
+    position: fixed;
+    width: 100%;
    
 }
 .nav-container ul{
@@ -224,15 +226,43 @@
   }
 
   /* update section start  */
+
+  .update{
+    margin: 0 350px;
+  }
+
+
   
   .update-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    text-align: center;
+    margin: 0 120px;
+   
 
   }
+  .update-container .text{
+    text-align: center;
+  }
   
+  .text h1{
+    font-size: large;
+    margin-bottom: 30px;
+  }
+  .text p{
+    margin-bottom: 30px;
+  }
+
+  .subscribe {
+    margin-bottom: 30px;
+  }
+
+  footer{
+    text-align: center;
+    background-color: #FF5959;
+    margin: 120px 50px;
+  }
 
   
  
